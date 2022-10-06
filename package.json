@@ -1,14 +1,13 @@
 {
 	"name": "payalasodariya.github.io",
-	"homepage": "https://payalasodariya.gihub.io",
 	"version": "1.0.0",
 	"description": "Portfolio Website",
-	"main": "index.js",
 	"author": "Payal Baldha",
 	"license": "MIT",
 	"scripts": {
 		"start": "next start",
-		"deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out -t true",
+		"predeploy": "next build && next export && git add out",
+		"deploy": "gh-pages -d out -t true",
 		"dev": "next dev",
 		"build": "next build",
 		"lint": "next lint"
