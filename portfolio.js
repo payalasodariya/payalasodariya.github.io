@@ -152,12 +152,7 @@ export const experience = [
     companylogo: "/img/icons/common/Accenture-Logo.png",
     date: "Jan 2022 – July 2022",
     desc: "I worked as a Senior Software Developer at Accenture.",
-    descBullets: [
-      "Had training on their internal softwares, coding standards and security protocols",
-      "Had worked on bench activity for 3 months as I put resign right after training due to Canada PR Visa approval",
-      "Bench activity was included with several tasks like to take follow ups with seniority level employees if they completed certain training programs and for interns if they are interested in certain roles"
-    ],
-  },
+    descBullets: []
   {
     role: "Full stack developer",
     company: "Codeflash Infotech",
