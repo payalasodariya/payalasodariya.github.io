@@ -54,7 +54,7 @@ export const skillsSection = {
           skillName: "JavaScript",
           fontAwesomeClassname: "logos:javascript",
         },
-        
+
         {
           skillName: "NPM",
           fontAwesomeClassname: "logos:npm-icon",
@@ -152,7 +152,8 @@ export const experience = [
     companylogo: "/img/icons/common/Accenture-Logo.png",
     date: "Jan 2022 – July 2022",
     desc: "I worked as a Senior Software Developer at Accenture.",
-    descBullets: []
+    descBullets: [],
+  },
   {
     role: "Full stack developer",
     company: "Codeflash Infotech",
@@ -163,7 +164,7 @@ export const experience = [
       "Implemented various pages using react js(typescript) reusable components, used redux and redux-saga for state management",
       "Integrated payment gateway(Stripe) in ecommerce webapp and used google maps, angular instant search, graphQL and firebase for authentication",
       "Created architecture for web application",
-      "experience in RESTful web services to integrate between client and server side"
+      "experience in RESTful web services to integrate between client and server side",
     ],
   },
   {
@@ -181,8 +182,7 @@ export const experience = [
   },
 ];
 
-export const projects = [
-];
+export const projects = [];
 
 export const feedbacks = [
   // {
