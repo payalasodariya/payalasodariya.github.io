@@ -73,67 +73,10 @@ export const skillsSection = {
         },
       ],
     },
-    // ,
-    // {
-    // 	title: "Blockchain",
-    // 	lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
-    // 	skills: [
-    // 		emoji(
-    // 			"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
-    // 		),
-    // 		emoji(
-    // 			"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
-    // 		),
-    // 		emoji(
-    // 			"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
-    // 		),
-    // 		emoji(
-    // 			"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
-    // 		),
-    // 		emoji(
-    // 			"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
-    // 		),
-    // 	],
-    // 	softwareSkills: [
-    // 		{
-    // 			skillName: "Ethereum",
-    // 			fontAwesomeClassname: "logos:ethereum",
-    // 		},
-    // 		{
-    // 			skillName: "Solidity",
-    // 			fontAwesomeClassname: "logos:solidity",
-    // 		},
-    // 		{
-    // 			skillName: "Web3js",
-    // 			fontAwesomeClassname: "logos:web3js",
-    // 		},
-    // 		{
-    // 			skillName: "Metamask",
-    // 			fontAwesomeClassname: "logos:metamask-icon",
-    // 		},
-    // 		{
-    // 			skillName: "Ganache",
-    // 			fontAwesomeClassname: "logos:ganache-icon",
-    // 		},
-    // 	],
-    // },
   ],
 };
 
-export const SkillBars = [
-  // {
-  // 	Stack: "Frontend/Design", //Insert stack or technology you have experience in
-  // 	progressPercentage: "90", //Insert relative proficiency in percentage
-  // },
-  // {
-  // 	Stack: "Backend",
-  // 	progressPercentage: "70",
-  // },
-  // {
-  // 	Stack: "Programming",
-  // 	progressPercentage: "60",
-  // },
-];
+export const SkillBars = [];
 
 export const educationInfo = [
   {
@@ -147,12 +90,32 @@ export const educationInfo = [
 
 export const experience = [
   {
+    role: "Frontend Developer",
+    company: "Codeflash Infotech",
+    companylogo: "/img/icons/common/codeflash.png",
+    date: "Aug 2022 – Present",
+    desc: "Analyzing, designing, and implementing features for client projects while paying close attention to branding,
+visual, functional and budgetary requirements",
+    descBullets: [
+     "Coordinating with team members to ensure that the project's functional and visual components adhere to the
+project scope and requirements throughout the entire life cycle",
+      "Implementing new user interface features into the base product as per modern web standards and best
+practices",
+      "Provide CMS implementation, web development, graphic and branding design"
+    ],
+  },
+  {
     role: "Application development senior analyst ",
     company: "Accenture",
     companylogo: "/img/icons/common/Accenture-Logo.png",
     date: "Jan 2022 – July 2022",
     desc: "I worked as a Senior Software Developer at Accenture.",
-    descBullets: [],
+    descBullets: [
+      "Had training on their Internal softwares, Coding standards and Security protocols",
+      "Created an admin panel for the client to add their internal data and view their statistics using ngChart and
+materialUI library",
+      "Implemented Authentication flow, Created web app structure and integrated GraphQL API"
+    ],
   },
   {
     role: "Full stack developer",
@@ -161,10 +124,11 @@ export const experience = [
     date: "Jan 2020 – Dec 2021",
     desc: "Here being a full stack developer, my role was to work with ReactJs, VueJs and NodeJs.",
     descBullets: [
-      "Implemented various pages using react js(typescript) reusable components, used redux and redux-saga for state management",
-      "Integrated payment gateway(Stripe) in ecommerce webapp and used google maps, angular instant search, graphQL and firebase for authentication",
-      "Created architecture for web application",
-      "experience in RESTful web services to integrate between client and server side",
+      "Conceptualized project to operate home appliances using ReactJs(typescript), redux and redux-saga for
+state management",
+      "Implemented Forms and validations, routing, services and api calls using axios in VueJs",
+      "Worked on front end using javascript and typescript",
+      "Created and Integrated RESTful web services with front end",
     ],
   },
   {
@@ -184,15 +148,4 @@ export const experience = [
 
 export const projects = [];
 
-export const feedbacks = [
-  // {
-  // 	name: "John Smith",
-  // 	feedback:
-  // 		"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
-  // },
-  // {
-  // 	name: "John Smith",
-  // 	feedback:
-  // 		"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
-  // },
-];
+export const feedbacks = [];
