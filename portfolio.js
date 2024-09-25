@@ -68,8 +68,12 @@ export const skillsSection = {
           fontAwesomeClassname: "vscode-icons:file-type-html",
         },
         {
-          skillName: "CSS-3",
-          fontAwesomeClassname: "vscode-icons:file-type-css",
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "logos:mongodb",
         },
       ],
     },
@@ -90,21 +94,6 @@ export const educationInfo = [
 
 export const experience = [
   {
-    role: "Frontend Developer",
-    company: "Codeflash Infotech",
-    companylogo: "/img/icons/common/codeflash.png",
-    date: "Aug 2022 – Present",
-    desc: "Analyzing, designing, and implementing features for client projects while paying close attention to branding,
-visual, functional and budgetary requirements",
-    descBullets: [
-     "Coordinating with team members to ensure that the project's functional and visual components adhere to the
-project scope and requirements throughout the entire life cycle",
-      "Implementing new user interface features into the base product as per modern web standards and best
-practices",
-      "Provide CMS implementation, web development, graphic and branding design"
-    ],
-  },
-  {
     role: "Application development senior analyst ",
     company: "Accenture",
     companylogo: "/img/icons/common/Accenture-Logo.png",
@@ -114,7 +103,8 @@ practices",
       "Had training on their Internal softwares, Coding standards and Security protocols",
       "Created an admin panel for the client to add their internal data and view their statistics using ngChart and
 materialUI library",
-      "Implemented Authentication flow, Created web app structure and integrated GraphQL API"
+      "Implemented Authentication flow, Created web app structure and integrated GraphQL API",
+      "Develop and enhance software applications to meet client-specific requirements and operational goals"
     ],
   },
   {
@@ -138,7 +128,7 @@ state management",
     date: "June 2017 - Jan 2020",
     desc: "Developed a high-performance web platform for a SaaS product SCIKEY, used by 100+ clients",
     descBullets: [
-      "Designed few feature flows, UI and databases",
+      "Designed feature flows, UI and databases",
       "Initiated Angular web application base structures and npm packages for future effort minimization",
       "Worked as a front end developer(Angular 2, 4, 5), Implemented chat bot(Angular, NodeJs, Google Dialog-flow, Socket Programming, mongodb)",
       "Generated REST APIs and integrated with the front end",
